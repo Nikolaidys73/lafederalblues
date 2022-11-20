@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: rgb(112, 105, 105);
+}
+
+/* ----------- HEADER ----------- */
+.navbar {
+  background-color: #ffffff;
+}
+
+/* Arreglos generales del Boddy */
+/* Textos */
+h1 {
+  align-items: center;
+  text-decoration: solid;
+  color: #000000;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+
+h2 {
+  font-size: 5vh;
+  text-decoration: solid;
+  color: #000000;
+}
+
+h3 {
+  text-decoration: solid;
+  color: #000000;
+}
+
+h4 {
+  font-size: 5vh;
+  text-decoration: solid;
+  color: #000000;
+}
+
+h5 {
+  color: black;
+}
+
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  gap: 15px;
+}
+
+img {
+  width: 25%;
+  height: auto;
+  max-height: 1000px;
+}
+
+p {
+  text-decoration: solid;
+  color: #000000;
+}
+
+/* Objetos */
+hr {
+  color: #ffffff;
+  font-size: 2px;
+}
+
+/* ----------- MAIN ----------- */
+/* Carousel de novedades Index */
+.carousel-inner img {
+  max-height: 50px;
+  max-width: 100;
+  max-block-size: 500px;
+}
+
+/* Formulario de Contacto */
+.consultas-fieldset {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-top: 15px;
+  font-size: 3em;
+  padding: 2px;
+}
+
+.datos-personales {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  text-decoration: solid;
+  color: #ffffff;
+}
+
+legend {
+  text-decoration: solid;
+  color: #ff0000;
+}
+
+fieldset {
+  background-color: #FDEAE3;
+  padding: 35px;
+}
+
+form p {
+  color: #000000;
+  font-weight: bolder;
+}
+
+/* Sobre Mi */
+.sobre-mi a {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.sobre-mi {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: #ffffff;
+}
+
+.img-fluid1 {
+  align-items: center;
+  align-content: center;
+  max-width: 500px;
+  max-height: 50px;
+}
+
+.sobre-mi .p-sobremi {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: #000000;
+  font-size: 3vh;
+}
+
+/* */
+.row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.row img {
+  display: flex;
+  align-items: center;
+  max-height: 220px;
+}
+
+.fotonov img {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+/* ----------- FOOTER ----------- */
+footer {
+  color: #000000;
+}
+
+.site-footer {
+  height: 150px;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.iconos a i:hover {
+  background-color: #b60b0b;
+  color: white;
+  border: 5p solid rgb(0, 0, 0);
+  border-radius: 40px;
+}
+
+.grid {
+  display: grid;
+  height: 10vh;
+  align-content: center;
+  background-color: rgba(150, 7, 7, 0.431372549);
+  justify-content: center;
+  align-items: center;
+}
+
+.grid1 {
+  display: grid;
+  height: 10vh;
+  align-content: center;
+  background-color: rgba(150, 7, 7, 0.7176470588);
+  justify-content: center;
+  align-items: initial;
+}
+
+.grid2 {
+  display: grid;
+  height: 10vh;
+  align-content: center;
+  background-color: rgba(150, 7, 7, 0.7176470588);
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=style.css.map */

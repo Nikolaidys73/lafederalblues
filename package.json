@@ -1,0 +1,22 @@
+{
+  "name": "segundaentregabasilico---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikolaidys73/segundaentregacoder.git"
+  },
+  "keywords": [Blues, rock, rafaela, la federal, ],
+  "author": "Niko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikolaidys73/segundaentregacoder/issues"
+  },
+  {
+  "homepage": "https://github.com/Nikolaidys73/segundaentregacoder#readme"
+  "description": "Pagina de la Federal Blues - Banda Rafaelina de rock establecida en 2020 "
+}

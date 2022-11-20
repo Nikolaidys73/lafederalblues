@@ -1,0 +1,48 @@
+/* ----------- FOOTER ----------- */
+
+footer {
+    color: #000000;
+}
+
+.site-footer {
+    height: 150px;
+}
+
+.iconos a {
+    text-decoration: none;
+    color:#ffffff;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.iconos a i:hover {
+    background-color: #b60b0b;
+    color: white;
+    border: 5p solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.grid {
+    display: grid;
+    height: 10vh;
+    align-content: center;
+    background-color: #9607076e;
+    justify-content: center;
+    align-items: center;
+}
+.grid1 {
+    display: grid;
+    height: 10vh;
+    align-content: center;
+    background-color: #960707b7;
+    justify-content: center;
+    align-items: initial;
+}
+.grid2 {
+    display: grid;
+    height: 10vh;
+    align-content: center;
+    background-color: #960707b7;
+    justify-content: center;
+    align-items: flex-end;
+}

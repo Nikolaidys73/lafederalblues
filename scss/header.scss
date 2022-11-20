@@ -1,0 +1,63 @@
+/* ----------- HEADER ----------- */
+
+.navbar {
+    background-color: #ffffff;
+}
+
+/* Arreglos generales del Boddy */
+
+/* Textos */
+
+h1 {
+    align-items: center;
+    text-decoration: solid;
+    color: #000000;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+h2 {
+    font-size: 5vh;
+    text-decoration: solid;
+    color: #000000;
+}
+
+h3 {
+    text-decoration: solid;
+    color: #000000;
+}
+
+h4 {
+    font-size: 5vh;
+    text-decoration: solid;
+    color: #000000;
+}
+
+h5 {
+    color: black;
+}
+
+body {
+    padding: 20px;
+    font-family: sans-serif;
+    gap: 15px;
+}
+
+img {
+    width: 25%; 
+    height: auto;
+    max-height: 1000px;
+}
+
+p {
+    text-decoration: solid;
+    color: #000000;
+}
+
+/* Objetos */
+
+hr {
+    color: #ffffff;
+    font-size: 2px;
+}
