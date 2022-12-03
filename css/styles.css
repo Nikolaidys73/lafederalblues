@@ -41,6 +41,16 @@ body {
     background-color: #f0c8c8d7;
   }
 
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #722c2c8f;
+    border: 1.5px black;
+    border-radius: 0.5rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
   .fecha26 { 
     display: flex;
     align-self: center;
