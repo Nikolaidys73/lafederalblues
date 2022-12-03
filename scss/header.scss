@@ -1,9 +1,16 @@
 /* ----------- HEADER ----------- */
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #cc3838;
 }
 
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #8c2323;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
 /* Arreglos generales del Boddy */
 
 /* Textos */
@@ -60,4 +67,10 @@ p {
 hr {
     color: #ffffff;
     font-size: 2px;
+}
+
+.logo1{
+    max-width: 400px;
+    max-height: 400px;
+    align-items: center;
 }

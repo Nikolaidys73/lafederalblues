@@ -11,11 +11,47 @@ body {
 
 /* ----------- HEADER ----------- */
 
-.navbar {
-    background-color: #FFFFFF;
+.nav.toogler-icon{
+    border-radius: 0.5cm;
 }
 
-/* Arreglos generales del Boddy */
+.navbar {
+    background-color: #c4a5a5;
+}
+.site-header {
+    background-color: #cf1d1d;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #8c2323;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  }
+
+  .bienve {
+    display: flex;
+    text-align:start;
+    color: #8c2323;
+    text-shadow:  0.1em 0.1em 0.2em black;
+  }
+
+  .navbar-expand-lg {
+    background-color: #f0c8c8d7;
+  }
+
+  .fecha26 { 
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 65%; 
+    height: 65%;
+    max-height: 750px;
+
+  }
+  /* Arreglos generales del Boddy */
+
 
 /* Textos */
 
@@ -32,11 +68,16 @@ h2 {
     font-size: 5vh;
     text-decoration: solid;
     color: #000000;
+    text-shadow:0.5em 0.5em 0.7em black ;
 }
 
 h3 {
+    align-items: center;
     text-decoration: solid;
     color: #000000;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
 }
 
 h4 {
@@ -45,8 +86,18 @@ h4 {
     color: #000000;
 }
 
-h5 {
-    color: black;
+h5.a {
+    color: #960707b7;
+    text-decoration: solid;
+    text-shadow: 0.10em 0.10em rgb(204, 157, 157) ;
+}
+h5.b {
+    text-shadow:  0.5em 0.5em 0.7em black ;
+}
+h6 {
+    color:#000000;
+    text-align: center;
+    text-decoration: dashed;
 }
 
 body {
@@ -73,14 +124,49 @@ hr {
     font-size: 2px;
 }
 
+
+h4.carru {
+    align-items: center;
+    text-decoration: solid;
+    color: #000000;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+.nombres {
+    align-items: center;
+    text-decoration: solid;
+    color: #ac2525;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+.logo1 {
+    max-width: 250px;
+    max-height: 250px;
+    align-items: center;
+  }
+
+  .fotonov {
+    width: 25%;
+    height: auto;
+    max-height: 1000px;
+  }
+
+
 /* ----------- MAIN ----------- */
 
 /* Carousel de novedades Index */
 
 .carousel-inner img {
-    max-height: 50px;
-    max-width: 100;
+    max-height: 500px;
+    max-width: 500px;
    max-block-size: 500px;
+   align-items: center;
+   margin: auto;
+ display: block;
 }
 
 /* Formulario de Contacto */
@@ -134,7 +220,7 @@ form p {
 .sobre-mi {
     display: grid;
     margin-top: 20px;
-    background-color: #ffffff;
+    background-color: #f7e5e5;
     text-align: center;
     align-content: center;
 }
@@ -150,6 +236,7 @@ form p {
 
 .img-fluid1 {
     display: flex;
+    margin: auto;
     max-width: 500px;
     max-height: 500px;
     align-items: center;
@@ -189,7 +276,7 @@ footer {
 }
 
 .iconos a i:hover {
-    background-color: #000000;
+    background-color: #e42727;
     color: white;
     border: 1p solid rgb(0, 0, 0);
     border-radius: 40px;

@@ -10,7 +10,15 @@ body {
 
 /* ----------- HEADER ----------- */
 .navbar {
-  background-color: #ffffff;
+  background-color: #cc3838;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #8c2323;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 /* Arreglos generales del Boddy */
@@ -66,6 +74,18 @@ p {
 hr {
   color: #ffffff;
   font-size: 2px;
+}
+
+.logo1 {
+  max-width: 250px;
+  max-height: 250px;
+  align-items: center;
+}
+
+.fotonov {
+  width: 25%;
+  height: auto;
+  max-height: 1000px;
 }
 
 /* ----------- MAIN ----------- */
@@ -134,16 +154,10 @@ form p {
 }
 
 .img-fluid1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  margin: auto;
   align-items: center;
   align-content: center;
   max-width: 500px;
   max-height: 50px;
-  padding: 15px;
 }
 
 .sobre-mi .p-sobremi {
