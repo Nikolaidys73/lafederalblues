@@ -1,4 +1,4 @@
-const productos = [
+/* const productos = [
     {nombre: "CD A LO LEJOS", precio: 2000},
     {nombre: "REMERA A LO LEJOS", precio: 2500},
     {nombre: "REMERA AUTOGRAFIADA", precio: 3000},
